@@ -1,6 +1,6 @@
 # y5_test
 
-'''c
+'''
 
 git clone https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi.git
 
