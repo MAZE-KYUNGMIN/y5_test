@@ -1,9 +1,10 @@
 # y5_test
 
 ```
+https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/raspberry_pi ##sample
 
-
-git clone https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi.git #오브젝트 디텍션 예제
+## blog
+git clone https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi.git 
 
 
 
