@@ -79,4 +79,20 @@ import cv2
 
 # cap.release()
 # cv2.destroyAllWindows()
+
+
+
+pi@raspberrypi:~/examples/lite/examples/object_detection/raspberry_pi $ python detect.py --model yolov5_lite.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Traceback (most recent call last):
+  File "/home/pi/examples/lite/examples/object_detection/raspberry_pi/detect.py", line 150, in <module>
+    main()
+  File "/home/pi/examples/lite/examples/object_detection/raspberry_pi/detect.py", line 145, in main
+    run(args.model, int(args.cameraId), args.frameWidth, args.frameHeight,
+  File "/home/pi/examples/lite/examples/object_detection/raspberry_pi/detect.py", line 63, in run
+    detector = vision.ObjectDetector.create_from_options(options)
+  File "/home/pi/.local/lib/python3.9/site-packages/tensorflow_lite_support/python/task/vision/object_detector.py", line 82, in create_from_options
+    detector = _CppObjectDetector.create_from_options(options.base_options,
+RuntimeError: Input tensor has type kTfLiteFloat32: it requires specifying NormalizationOptions metadata to preprocess input images.
+
 ```
